@@ -8,7 +8,8 @@ html {
 }
 
 body,
-html {
+html,
+#container {
     min-width: 100vw;
     min-height: 100vh;
 }
