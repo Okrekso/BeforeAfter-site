@@ -1,6 +1,134 @@
 header {
-    align-self: stretch;
-    background: gray;
-    box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
-    padding: 5px 0;
-}
+    padding: 0 10px;
+  
+  }
+  
+  /* Nav
+  ==================*/
+  
+  .main-menu {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  }
+  .main-menu__links{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav__link {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 21px;
+    /* text-transform: uppercase; */
+    opacity: 0.75;
+    transition: border-buttom 0.3s linear;
+    transition-duration: 100ms;
+    transition-property: text-shadow;
+  }
+  
+  .nav__link:hover {
+    opacity: 1;
+    color: rgb(102, 102, 102);
+    text-shadow: 5px 1px 10px;
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3); */
+  }
+  
+  /* Person
+  ==================*/
+  
+  /*First screen
+  ==================*/
+  
+  .header__title {
+    margin-top: 20px;
+    //background: url(../img/png/leaf.png) no-repeat;
+    background-position: right;
+    padding: 90px 0;
+  }
+  
+  .header__title p {
+    font-size: 70px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+  }
+  
+  /*Bottons
+  ==================*/
+  .btn {
+    display: inline-block;
+    vertical-align: top;
+  
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    transition-duration: 100ms;
+    transition-property: box-shadow;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .donate__btn {
+    padding: 14px 40px;
+    border: 1px solid #00ff00;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    color: #000000;
+    font-weight: 600;
+  }
+  
+  .problem__btn {
+    margin-left: 100px;
+    padding: 24px 50px;
+  
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    background-color: #00ff00;
+  
+    cursor: pointer;
+  
+    font-size: 19px;
+    color: #000000;
+    font-weight: 600;
+  }
+  
+  .block__arrow {
+    text-align: center;
+    margin: 40px auto 90px auto;
+  }
+  
+  .arrow__title {
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    color: black;
+  }
+  
+  .header__arrow {
+    fill: #000;
+    margin: 10px 0 0 0;
+    transition-duration: 500ms;
+    transition-property: fill;
+    animation-name: animateArrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes animateArrow {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(25px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
