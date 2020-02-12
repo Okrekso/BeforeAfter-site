@@ -4,6 +4,7 @@ import React from "react";
 import BlockMap from "./blockMap";
 import BlockProblems from "./blockProblems";
 import BlockSolved from "./blockSolved";
+import Footer from "./footer";
 
 export default function render(container) {
   ReactDOM.render(<Site />, container);
@@ -16,6 +17,7 @@ export function Site() {
       <BlockMap />
       <BlockProblems />
       <BlockSolved />
+      <Footer/>
     </>
   );
 }

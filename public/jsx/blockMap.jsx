@@ -12,8 +12,8 @@ import React, {
   export default function BlockMap() {
     return(
         <div id="block__map">
-      <div class="container">
-          <div class="map__title">
+      <div className="container">
+          <div className="map__title">
               <h3>
                 Проблеми у вашому місті
               </h3>

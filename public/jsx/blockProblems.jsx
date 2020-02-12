@@ -9,92 +9,92 @@ import React, {
   export default function BlockProblems(){
     return (
         <div id="problems">
-        <div class="problems__title">
+        <div className="problems__title">
           <h3 id="list__problem">Перелік проблем</h3>
         </div>
-        <div class="first-row">
-            <ul class="image-items">
-                <li class="image-item">
-                    <div class="problem__content">
-                        <div class="problem__title">Problem Name</div>
-                        <div class="problem__text">A brief description of the problem</div>
-                        <div class="problems__btn">
-                            <a class="btn--one donate__btn--one" href="#">Donate</a>
-                            <a class="btn--one problem__btn--one" href="#">Допомогти</a>
+        <div className="first-row">
+            <ul className="image-items">
+                <li className="image-item">
+                    <div className="problem__content">
+                        <div className="problem__title">Problem Name</div>
+                        <div className="problem__text">A brief description of the problem</div>
+                        <div className="problems__btn">
+                            <a className="btn--one donate__btn--one" href="#">Donate</a>
+                            <a className="btn--one problem__btn--one" href="#">Допомогти</a>
                         </div>
                       </div>
                 </li>
-                <li class="image-item">
-                    <div class="problem__content">
-                        <div class="problem__title">Problem Name</div>
-                        <div class="problem__text">A brief description of the problem</div>
-                        <div class="problems__btn">
-                            <a class="btn--one donate__btn--one" href="#">Donate</a>
-                            <a class="btn--one problem__btn--one" href="#">Допомогти</a>
+                <li className="image-item">
+                    <div className="problem__content">
+                        <div className="problem__title">Problem Name</div>
+                        <div className="problem__text">A brief description of the problem</div>
+                        <div className="problems__btn">
+                            <a className="btn--one donate__btn--one" href="#">Donate</a>
+                            <a className="btn--one problem__btn--one" href="#">Допомогти</a>
                         </div>
                       </div>
                 </li>
-                <li class="image-item">
-                    <div class="problem__content">
-                        <div class="problem__title">Problem Name</div>
-                        <div class="problem__text">A brief description of the problem</div>
-                        <div class="problems__btn">
-                            <a class="btn--one donate__btn--one" href="#">Donate</a>
-                            <a class="btn--one problem__btn--one" href="#">Допомогти</a>
+                <li className="image-item">
+                    <div className="problem__content">
+                        <div className="problem__title">Problem Name</div>
+                        <div className="problem__text">A brief description of the problem</div>
+                        <div className="problems__btn">
+                            <a className="btn--one donate__btn--one" href="#">Donate</a>
+                            <a className="btn--one problem__btn--one" href="#">Допомогти</a>
                         </div>
                       </div>
                 </li>
-                <li class="image-item">
-                    <div class="problem__content">
-                        <div class="problem__title">Problem Name</div>
-                        <div class="problem__text">A brief description of the problem</div>
-                        <div class="problems__btn">
-                            <a class="btn--one donate__btn--one" href="#">Donate</a>
-                            <a class="btn--one problem__btn--one" href="#">Допомогти</a>
+                <li className="image-item">
+                    <div className="problem__content">
+                        <div className="problem__title">Problem Name</div>
+                        <div className="problem__text">A brief description of the problem</div>
+                        <div className="problems__btn">
+                            <a className="btn--one donate__btn--one" href="#">Donate</a>
+                            <a className="btn--one problem__btn--one" href="#">Допомогти</a>
                         </div>
                       </div>
                 </li>
               </ul>
         </div>
-        <div class="second-row">
-            <ul class="image-items">
-                <li class="image-item">
-                    <div class="problem__content">
-                        <div class="problem__title">Problem Name</div>
-                        <div class="problem__text">A brief description of the problem</div>
-                        <div class="problems__btn">
-                            <a class="btn--one donate__btn--one" href="#">Donate</a>
-                            <a class="btn--one problem__btn--one" href="#">Допомогти</a>
+        <div className="second-row">
+            <ul className="image-items">
+                <li className="image-item">
+                    <div className="problem__content">
+                        <div className="problem__title">Problem Name</div>
+                        <div className="problem__text">A brief description of the problem</div>
+                        <div className="problems__btn">
+                            <a className="btn--one donate__btn--one" href="#">Donate</a>
+                            <a className="btn--one problem__btn--one" href="#">Допомогти</a>
                         </div>
                       </div>
                 </li>
-                <li class="image-item">
-                    <div class="problem__content">
-                        <div class="problem__title">Problem Name</div>
-                        <div class="problem__text">A brief description of the problem</div>
-                        <div class="problems__btn">
-                            <a class="btn--one donate__btn--one" href="#">Donate</a>
-                            <a class="btn--one problem__btn--one" href="#">Допомогти</a>
+                <li className="image-item">
+                    <div className="problem__content">
+                        <div className="problem__title">Problem Name</div>
+                        <div className="problem__text">A brief description of the problem</div>
+                        <div className="problems__btn">
+                            <a className="btn--one donate__btn--one" href="#">Donate</a>
+                            <a className="btn--one problem__btn--one" href="#">Допомогти</a>
                         </div>
                       </div>
                 </li>
-                <li class="image-item">
-                    <div class="problem__content">
-                        <div class="problem__title">Problem Name</div>
-                        <div class="problem__text">A brief description of the problem</div>
-                        <div class="problems__btn">
-                            <a class="btn--one donate__btn--one" href="#">Donate</a>
-                            <a class="btn--one problem__btn--one" href="#">Допомогти</a>
+                <li className="image-item">
+                    <div className="problem__content">
+                        <div className="problem__title">Problem Name</div>
+                        <div className="problem__text">A brief description of the problem</div>
+                        <div className="problems__btn">
+                            <a className="btn--one donate__btn--one" href="#">Donate</a>
+                            <a className="btn--one problem__btn--one" href="#">Допомогти</a>
                         </div>
                       </div>
                 </li>
-                <li class="image-item">
-                    <div class="problem__content">
-                        <div class="problem__title">Problem Name</div>
-                        <div class="problem__text">A brief description of the problem</div>
-                        <div class="problems__btn">
-                            <a class="btn--one donate__btn--one" href="#">Donate</a>
-                            <a class="btn--one problem__btn--one" href="#">Допомогти</a>
+                <li className="image-item">
+                    <div className="problem__content">
+                        <div className="problem__title">Problem Name</div>
+                        <div className="problem__text">A brief description of the problem</div>
+                        <div className="problems__btn">
+                            <a className="btn--one donate__btn--one" href="#">Donate</a>
+                            <a className="btn--one problem__btn--one" href="#">Допомогти</a>
                         </div>
                       </div>
                 </li>

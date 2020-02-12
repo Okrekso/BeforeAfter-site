@@ -32,3 +32,9 @@ html,
     padding: 0 40px;
     height: 100%;
 }
+.footer .container{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content:space-between;
+}

@@ -10,92 +10,92 @@ import React, {
   export default function BlockSolved(){
     return(
         <div id="solved-problem">
-        <div class="Nproblems__title">
+        <div className="Nproblems__title">
             <h3 id="list__problem">Вирішені проблеми</h3>
           </div>
-          <div class="first-row">
-              <ul class="image-items">
-                <li class="image-item">
-                    <div class="Nproblem__content">
-                        <div class="Nproblem__title">Problem Name</div>
-                        <div class="Nproblem__text">the problem is resolved?</div>
-                        <div class="Nproblems__btn">
-                            <a class="btn--two problem__btn--two" href="#">Так</a>
-                            <a class="btn--two donate__btn--two" href="#">Ні</a>
+          <div className="first-row">
+              <ul className="image-items">
+                <li className="image-item">
+                    <div className="Nproblem__content">
+                        <div className="Nproblem__title">Problem Name</div>
+                        <div className="Nproblem__text">the problem is resolved?</div>
+                        <div className="Nproblems__btn">
+                            <a className="btn--two problem__btn--two" href="#">Так</a>
+                            <a className="btn--two donate__btn--two" href="#">Ні</a>
                         </div>
                       </div>
                 </li>
-                <li class="image-item">
-                    <div class="Nproblem__content">
-                        <div class="Nproblem__title">Problem Name</div>
-                        <div class="Nproblem__text">the problem is resolved?</div>
-                        <div class="Nproblems__btn">
-                            <a class="btn--two problem__btn--two" href="#">Так</a>
-                            <a class="btn--two donate__btn--two" href="#">Ні</a>
+                <li className="image-item">
+                    <div className="Nproblem__content">
+                        <div className="Nproblem__title">Problem Name</div>
+                        <div className="Nproblem__text">the problem is resolved?</div>
+                        <div className="Nproblems__btn">
+                            <a className="btn--two problem__btn--two" href="#">Так</a>
+                            <a className="btn--two donate__btn--two" href="#">Ні</a>
                         </div>
                       </div>
                 </li>
-                <li class="image-item">
-                    <div class="Nproblem__content">
-                        <div class="Nproblem__title">Problem Name</div>
-                        <div class="Nproblem__text">the problem is resolved?</div>
-                        <div class="Nproblems__btn">
-                            <a class="btn--two problem__btn--two" href="#">Так</a>
-                            <a class="btn--two donate__btn--two" href="#">Ні</a>
+                <li className="image-item">
+                    <div className="Nproblem__content">
+                        <div className="Nproblem__title">Problem Name</div>
+                        <div className="Nproblem__text">the problem is resolved?</div>
+                        <div className="Nproblems__btn">
+                            <a className="btn--two problem__btn--two" href="#">Так</a>
+                            <a className="btn--two donate__btn--two" href="#">Ні</a>
                         </div>
                       </div>
                 </li>
-                <li class="image-item">
-                    <div class="Nproblem__content">
-                        <div class="Nproblem__title">Problem Name</div>
-                        <div class="Nproblem__text">the problem is resolved?</div>
-                        <div class="Nproblems__btn">
-                            <a class="btn--two problem__btn--two" href="#">Так</a>
-                            <a class="btn--two donate__btn--two" href="#">Ні</a>
+                <li className="image-item">
+                    <div className="Nproblem__content">
+                        <div className="Nproblem__title">Problem Name</div>
+                        <div className="Nproblem__text">the problem is resolved?</div>
+                        <div className="Nproblems__btn">
+                            <a className="btn--two problem__btn--two" href="#">Так</a>
+                            <a className="btn--two donate__btn--two" href="#">Ні</a>
                         </div>
                       </div>
                 </li>
               </ul>
           </div>
-          <div class="second-row">
-              <ul class="image-items">
-                <li class="image-item">
-                    <div class="Nproblem__content">
-                        <div class="Nproblem__title">Problem Name</div>
-                        <div class="Nproblem__text">the problem is resolved?</div>
-                        <div class="Nproblems__btn">
-                            <a class="btn--two problem__btn--two" href="#">Так</a>
-                            <a class="btn--two donate__btn--two" href="#">Ні</a>
+          <div className="second-row">
+              <ul className="image-items">
+                <li className="image-item">
+                    <div className="Nproblem__content">
+                        <div className="Nproblem__title">Problem Name</div>
+                        <div className="Nproblem__text">the problem is resolved?</div>
+                        <div className="Nproblems__btn">
+                            <a className="btn--two problem__btn--two" href="#">Так</a>
+                            <a className="btn--two donate__btn--two" href="#">Ні</a>
                         </div>
                       </div>
                 </li>
-                <li class="image-item">
-                    <div class="Nproblem__content">
-                        <div class="Nproblem__title">Problem Name</div>
-                        <div class="Nproblem__text">the problem is resolved?</div>
-                        <div class="Nproblems__btn">
-                            <a class="btn--two problem__btn--two" href="#">Так</a>
-                            <a class="btn--two donate__btn--two" href="#">Ні</a>
+                <li className="image-item">
+                    <div className="Nproblem__content">
+                        <div className="Nproblem__title">Problem Name</div>
+                        <div className="Nproblem__text">the problem is resolved?</div>
+                        <div className="Nproblems__btn">
+                            <a className="btn--two problem__btn--two" href="#">Так</a>
+                            <a className="btn--two donate__btn--two" href="#">Ні</a>
                         </div>
                       </div>
                 </li>
-                <li class="image-item">
-                    <div class="Nproblem__content">
-                        <div class="Nproblem__title">Problem Name</div>
-                        <div class="Nproblem__text">the problem is resolved?</div>
-                        <div class="Nproblems__btn">
-                            <a class="btn--two problem__btn--two" href="#">Так</a>
-                            <a class="btn--two donate__btn--two" href="#">Ні</a>
+                <li className="image-item">
+                    <div className="Nproblem__content">
+                        <div className="Nproblem__title">Problem Name</div>
+                        <div className="Nproblem__text">the problem is resolved?</div>
+                        <div className="Nproblems__btn">
+                            <a className="btn--two problem__btn--two" href="#">Так</a>
+                            <a className="btn--two donate__btn--two" href="#">Ні</a>
                         </div>
                       </div>
                 </li>
-                <li class="image-item">
-                    <div class="Nproblem__content">
-                        <div class="Nproblem__title">Problem Name</div>
-                        <div class="Nproblem__text">the problem is resolved?</div>
-                        <div class="Nproblems__btn">
-                            <a class="btn--two problem__btn--two" href="#">Так</a>
-                            <a class="btn--two donate__btn--two" href="#">Ні</a>
+                <li className="image-item">
+                    <div className="Nproblem__content">
+                        <div className="Nproblem__title">Problem Name</div>
+                        <div className="Nproblem__text">the problem is resolved?</div>
+                        <div className="Nproblems__btn">
+                            <a className="btn--two problem__btn--two" href="#">Так</a>
+                            <a className="btn--two donate__btn--two" href="#">Ні</a>
                         </div>
                       </div>
                 </li>
