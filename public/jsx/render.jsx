@@ -5,7 +5,7 @@ import BlockMap from "./blockMap";
 import BlockProblems from "./blockProblems";
 import BlockSolved from "./blockSolved";
 import Footer from "./footer";
-
+import BlockMyAccount from "./blockMyAccount"
 export default function render(container) {
   ReactDOM.render(<Site />, container);
 }
@@ -18,6 +18,7 @@ export function Site() {
       <BlockProblems />
       <BlockSolved />
       <Footer/>
+      <BlockMyAccount />
     </>
   );
 }
