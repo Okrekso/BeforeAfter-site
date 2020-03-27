@@ -7,7 +7,7 @@ module.exports = {
   watch: true,
   output: {
     path: path.join(__dirname, 'dist'),
-    publicPath: '/dist/',
+    publicPath: '/public/dist/',
     filename: "bundle.js",
     chunkFilename: '[name].js'
   },
@@ -34,7 +34,7 @@ module.exports = {
         use: ['style-loader', 'css-loader', 'sass-loader']
       },
       {
-        test: /\.(woff(2)?|ttf|eot|svg|jpg)(\?v=\d+\.\d+\.\d+)?$/,
+        test: /\.(woff(2)?|ttf|eot|svg|jpg|png)(\?v=\d+\.\d+\.\d+)?$/,
         use: [
           {
             loader: 'url-loader',
@@ -51,6 +51,6 @@ module.exports = {
     historyApiFallback: true,
     overlay: true,
     host: 'localhost',
-    port: 8080,
+    port: 5000,
   }
 };

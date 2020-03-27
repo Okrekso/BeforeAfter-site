@@ -1,0 +1,21 @@
+#block__map {
+    margin-top: 80px;
+  }
+  
+  .map__title {
+    font-size: 25px;
+    text-align: center;
+  }
+  .map__title h3{
+    display: inline;
+    border-bottom: 1px solid #000;
+  }
+  
+  #map-canvas {
+    margin-top: 40px;
+    overflow-y: scroll;
+    scroll-behavior: initial;
+    height: 500px;
+    width: 100%;
+    position: sticky;
+  }
