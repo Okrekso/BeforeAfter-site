@@ -7,14 +7,9 @@ import React, {
     Component
   } from "react";
   import "../scss/blockMap.scss";
-  import { GoogleMap, withGoogleMap } from "react-google-maps";
-
+  import SimpleMap from "./map";
 
   export default function BlockMap() {
-
-    const MyGoogleMapComponent = withGoogleMap(props => {
-      <GoogleMap />
-    });
 
       return(
         <div id="block__map">
@@ -26,14 +21,7 @@ import React, {
             </div>
       </div>
       <div id="map-canvas"> 
-        <MyGoogleMapComponent 
-          containerElement = {
-            <div style={{ height:"100%" }} />
-          }
-          mapElement = {
-            <div style={{ height:"100%" }} />
-          }
-        />
+        <SimpleMap />
        </div>
     </div>
 
