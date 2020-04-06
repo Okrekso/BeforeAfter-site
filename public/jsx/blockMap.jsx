@@ -3,14 +3,20 @@ import React, {
     useContext,
     useEffect,
     useCallback,
-    useMemo
+    useMemo,
+    Component
   } from "react";
   import "../scss/blockMap.scss";
-
+  import { GoogleMap, withGoogleMap } from "react-google-maps";
 
 
   export default function BlockMap() {
-    return(
+
+    const MyGoogleMapComponent = withGoogleMap(props => {
+      <GoogleMap />
+    });
+
+      return(
         <div id="block__map">
       <div className="container">
           <div className="map__title">
@@ -19,8 +25,15 @@ import React, {
               </h3>
             </div>
       </div>
-      <div id="map-canvas">
-           
+      <div id="map-canvas"> 
+        <MyGoogleMapComponent 
+          containerElement = {
+            <div style={{ height:"100%" }} />
+          }
+          mapElement = {
+            <div style={{ height:"100%" }} />
+          }
+        />
        </div>
     </div>
 
