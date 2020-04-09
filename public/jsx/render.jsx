@@ -1,3 +1,4 @@
+import { BrowserRouter, Route,Switch} from 'react-router-dom';
 import Header from "./header";
 import ReactDOM from "react-dom";
 import React from "react";
@@ -10,7 +11,7 @@ export default function render(container) {
   ReactDOM.render(<Site />, container);
 }
 
-export function Site() {
+function Main() {
   return (
     <>
       <Header />
@@ -18,7 +19,16 @@ export function Site() {
       <BlockProblems />
       <BlockSolved />
       <Footer/>
-      <BlockMyAccount />
     </>
+  );
+}
+export function Site(){
+  return(
+    <BrowserRouter>
+                <Switch>
+                  <Route exact={true} path="/" component={Main} />
+                  <Route exact={true} path="/my-account" component={BlockMyAccount} />
+                </Switch>
+    </BrowserRouter>
   );
 }
