@@ -12,8 +12,7 @@ module.exports = {
     chunkFilename: '[name].js'
   },
   module: {
-    rules: [
-      {
+    rules: [{
         test: /.jsx?$/,
         include: [
           path.resolve(__dirname, 'jsx')
@@ -23,7 +22,9 @@ module.exports = {
         ],
         loader: 'babel-loader',
         options: {
-          presets: ["@babel/preset-env", "@babel/preset-react"]
+          presets: ["@babel/preset-env", "@babel/preset-react", {
+            'plugins': ['@babel/plugin-proposal-class-properties']
+          }]
         }
       },
       {
@@ -35,14 +36,13 @@ module.exports = {
       },
       {
         test: /\.(woff(2)?|ttf|eot|svg|jpg|png)(\?v=\d+\.\d+\.\d+)?$/,
-        use: [
-          {
-            loader: 'url-loader',
-          }
-        ]
+        use: [{
+          loader: 'url-loader',
+        }]
       }
     ]
   },
+  
   resolve: {
     extensions: ['.json', '.js', '.jsx']
   },
