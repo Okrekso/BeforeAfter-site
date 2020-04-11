@@ -65,3 +65,5 @@ node_modules/
 .env
 
 ./public/package-lock.json
+./public/dist/bundle.js
+./public/dist/bundle-lock.js.map
