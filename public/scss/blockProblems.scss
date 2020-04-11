@@ -20,7 +20,7 @@
   }
   .image-item{
     height: 400px;
-      width: 24%;
+      width: 22%;
       display: flex;
       padding: 20px 10px 0;
       flex-direction: column;
@@ -30,7 +30,7 @@
       position: relative;
       z-index: 4;
       box-shadow: inset 10px 10px 80px rgba(0,0,0,0.45);
-      border-radius: 50%;
+      border-radius: 100%;
   }
   
   .first-row .image-items .image-item:first-child {
