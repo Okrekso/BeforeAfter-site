@@ -1,49 +1,68 @@
-import app from 'firebase/app'
-import 'firebase/auth'
-import 'firebase/firebase-firestore'
+(function () {
 
-const config = {
-	apiKey: "AIzaSyC31PDyS0jn_lHPFNJ36Kw32V2CEFSPs5A",
-	authDomain: "beforeandafterapplication.firebaseapp.com",
-	databaseURL: "https://beforeandafterapplication.firebaseio.com",
-	projectId: "beforeandafterapplication",
-	storageBucket: "beforeandafterapplication.appspot.com",
-	messagingSenderId: "495897903913",
-	appId: "1:495897903913:web:935e90aadfbc52f787ed38",
-	measurementId: "G-JJ00WXPP8M"
-  }
 
-class Firebase {
-	constructor() {
-		app.initializeApp(config)
-		this.auth = app.auth()
-		// this.db = app.firestore()
-	}
 
-	login(email, password) {
-		return this.auth.signInWithEmailAndPassword(email, password)
-	}
+    const config = {
+        apiKey: "AIzaSyC31PDyS0jn_lHPFNJ36Kw32V2CEFSPs5A",
+        authDomain: "beforeandafterapplication.firebaseapp.com",
+        databaseURL: "https://beforeandafterapplication.firebaseio.com",
+        storageBucket: "beforeandafterapplication.appspot.com",
+    };
+    firebase.initializeApp(config);
 
-	logout() {
-		return this.auth.signOut()
-	}
 
-	async register(name, email, password) {
-		await this.auth.createUserWithEmailAndPassword(email, password)
-		return this.auth.currentUser.updateProfile({
-			displayName: name
-		})
-	}
+    //Login Page
+    const txtEmail = document.getElementById('txtEmail');
+    const txtPassword = document.getElementById('txtPassword');
+    const btnLogin = document.getElementById('btnLogin');
+    const btnSignUp = document.getElementById('btnSignUp');
+    const btnLogOut = document.getElementById('btnLogOut');
 
-	isInitialized() {
-		return new Promise(resolve => {
-			this.auth.onAuthStateChanged(resolve)
-		})
-	}
 
-	getCurrentUsername() {
-		return this.auth.currentUser && this.auth.currentUser.displayName
-	}
-}
+    //Настройка залогінення
+    btnLogin.addEventListener('click', e => {
+        //Get email and pass
+        const email = txtEmail.value;
+        const pass = txtPassword.value;
+        const auth = firebase.auth();
+        //Sign in
+        const promise = auth.signInWithEmailAndPassword(email, pass);
+        promise.catch(e => console.log(e.message));
+    })
 
-export default new Firebase()
+    //Signup page
+    btnSignUp.addEventListener('click', e => {
+        //Get email and pass
+        const email = txtEmail.value;
+        const pass = txtPassword.value;
+        const auth = firebase.auth();
+        //Sign in
+        const promise = auth.createUserWithEmailAndPassword(email, pass);
+        promise
+            .catch(e => console.log(e.message));
+
+    })
+
+    btnLogOut.addEventListener('click', e=>{
+        firebase.auth().signOut();
+    })
+
+
+
+    //Add a realtime listener
+    firebase.auth().onAuthStateChanged(firebase => {
+        if (firebaseUser) {
+            console.log(firebaseUser);
+            btnLogOut.classList.remove('hide');
+        } else {
+            console.log('not logged in');
+            btnLogOut.classList.add('hide');
+        }
+    })
+
+
+
+}());
+
+
+
