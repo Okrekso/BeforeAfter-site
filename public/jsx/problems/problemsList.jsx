@@ -25,7 +25,7 @@ let db = firebase.firestore();
 
 
 function ProblemsList(){
-    const [movies, setMovies] = useState([]);
+    const [problems, setProblems] = useState([]);
 
     useEffect(() => {
     db.collection('problems').get().then((querySnapshot) => {
@@ -36,12 +36,12 @@ function ProblemsList(){
                 ...doc.data()};
                 problems.push(problem);
   });
-  setMovies(problems);
+  setProblems(problems);
 });
     },[]);
     return(
         <ul className="image-items">
-            {movies.map(item =>{
+            {problems.map(item =>{
                 console.log(item);
                 return <ProblemsItem key={item.id}  item={item} />
             })}
