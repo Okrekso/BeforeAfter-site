@@ -23,7 +23,7 @@ export default function Header() {
                   <a className="nav__link" href="#">Donate</a>
               </div>
           <div className="header__person">
-              <a href="#" className="person__link">
+              <a href="/my-account" className="person__link">
                 <img src="img/png/user.png" alt="" className="person__img" />
               </a>
             </div>

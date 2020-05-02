@@ -63,3 +63,7 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+./public/package-lock.json
+./public/dist/bundle.js
+./public/dist/bundle.js.map
