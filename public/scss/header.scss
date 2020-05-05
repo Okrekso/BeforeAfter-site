@@ -13,22 +13,35 @@ header {
   }
   .main-menu__links{
     display: flex;
-    width: 40%;
+    width: 60%;
     align-items: center;
     justify-content: space-between;
   }
   .nav__link {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+    display: block !important;
+    color: rgb(0, 0, 0) !important;
+    text-decoration: none !important;
     font-size: 21px;
     /* text-transform: uppercase; */
-    opacity: 0.75;
-    transition: border-buttom 0.3s linear;
-    transition-duration: 100ms;
-    transition-property: text-shadow;
+    opacity: 0.75 !important;
+    transition: border-buttom 0.3s linear !important;
+    transition-duration: 100ms !important;
+    transition-property: text-shadow !important;
+    font-family: 'Roboto Slab',Tahoma, Arial,serif !important;
   }
   
+  .auth {
+    margin-top: 0.05em !important;
+    color: black !important;
+    text-transform: none !important;
+    font-size: 21px !important;
+  }
+
+  .toAuth {
+    color: black;
+    font-family: 'Roboto Slab',Tahoma, Arial,serif;
+  }
+
   .nav__link:hover {
     opacity: 1;
     color: rgb(102, 102, 102);
