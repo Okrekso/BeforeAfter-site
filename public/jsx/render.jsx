@@ -1,7 +1,7 @@
 import { BrowserRouter, Route,Switch} from 'react-router-dom';
 import Header from "./header";
 import ReactDOM from "react-dom";
-import React from "react";
+import React, { useState, useContext, useEffect, useCallback, useMemo } from 'react';
 import BlockMap from "./blockMap";
 import BlockProblems from "./blockProblems";
 import BlockSolved from "./blockSolved";
