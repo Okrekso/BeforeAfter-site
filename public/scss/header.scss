@@ -2,6 +2,10 @@ header {
     padding: 0 10px;
   
   }
+
+html{
+  scroll-behavior: smooth;
+  }
   
   /* Nav
   ==================*/
@@ -131,4 +135,5 @@ header {
       transform: translateY(0px);
     }
   }
+  
   
