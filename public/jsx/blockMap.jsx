@@ -3,14 +3,15 @@ import React, {
     useContext,
     useEffect,
     useCallback,
-    useMemo
+    useMemo,
+    Component
   } from "react";
   import "../scss/blockMap.scss";
-
-
+  import SimpleMap from "./map";
 
   export default function BlockMap() {
-    return(
+
+      return(
         <div id="block__map">
       <div className="container">
           <div className="map__title">
@@ -19,8 +20,8 @@ import React, {
               </h3>
             </div>
       </div>
-      <div id="map-canvas">
-           
+      <div id="map-canvas"> 
+        <SimpleMap />
        </div>
     </div>
 
