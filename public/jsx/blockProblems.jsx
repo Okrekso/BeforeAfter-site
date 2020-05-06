@@ -25,7 +25,7 @@ import React, {
                         <div className="problem__title">Problem Name</div>
                         <div className="problem__text">A brief description of the problem</div>
                         <div className="problems__btn">
-                            <a className="btn--one donate__btn--one" href="#">Donate</a>
+                        <a className="btn--one donate__btn--one" href="#">Donate</a>
                             <a className="btn--one problem__btn--one" href="#">Допомогти</a>
                         </div>
                       </div>
