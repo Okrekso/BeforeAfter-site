@@ -14,7 +14,7 @@ export default function Header() {
         <nav className="main-menu">
             <div className="header__logo logo">
                 <a href="#" className="logo__link">
-                  <img src="img/png/logo.png" alt="" className="logo__img" />
+                  <img src="./img/png/LOGO2.PNG" alt="" className="logo__img" />
                 </a>
               </div>
               <div className="main-menu__links">
