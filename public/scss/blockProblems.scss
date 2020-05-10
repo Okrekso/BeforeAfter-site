@@ -18,7 +18,6 @@
     justify-content: space-evenly;
   }
   .image-item{
-<<<<<<< HEAD
     height: 300px;
     width: 400px;
     display: flex;
@@ -27,33 +26,6 @@
     position: relative;
     z-index: 4;
     box-shadow: inset 10px 10px 80px rgba(0,0,0,0.45);
-=======
-    height: 400px;
-      width: 22%;
-      display: flex;
-      padding: 20px 10px 0;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      color: #fff;
-      position: relative;
-      z-index: 4;
-      box-shadow: inset 10px 10px 80px rgba(0,0,0,0.45);
-      border-radius: 100%;
-  }
-  
-  .first-row .image-items .image-item:first-child {
-    background: url(../img/Problems/Problems_1.jpg) no-repeat center left / cover;
-  }
-  .first-row .image-item:nth-child(2) {
-    background: url(../img/Problems/Problems_2.jpg) no-repeat center left / cover;
-  }
-  .first-row .image-item:nth-child(3) {
-    background: url(../img/Problems/Problems_3.jpg) no-repeat center left / cover;
-  }
-  .first-row .image-item:nth-child(4) {
-    background: url(../img/Problems/Problems_4.jpg) no-repeat center left / cover;
->>>>>>> 1e8651656447599c7eb5a8e48002be5d9067028f
   }
   .second-row .image-item:first-child {
     background: url(../img/Problems/Problems_5.jpg) no-repeat center left / cover;
@@ -67,7 +39,7 @@
   .second-row .image-item:nth-child(4) {
     background: url(../img/Problems/Problems_8.jpg) no-repeat center left / cover;
   }
-  .problem__item {  
+  .problem__item {
     width: 25%;
     height: 350px;
   
@@ -83,12 +55,7 @@
   }
   
   
-<<<<<<< HEAD
   .problem__hidden {
-=======
-  .problem__content {
-    border-radius: 50%;
->>>>>>> 1e8651656447599c7eb5a8e48002be5d9067028f
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,6 +72,7 @@
     left: 0;
     z-index: 2;
     transition: opacity 0.2s linear;
+    
   }
   
   .problem__content{
@@ -206,7 +174,7 @@
     border: 1px solid #00ff00;
     border-radius: 10px;
     cursor: pointer;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Roboto Slab',Tahoma, Arial,serif;
     font-size: 13px;
     color: #000000;
     font-weight: 600;

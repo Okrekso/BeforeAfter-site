@@ -32,9 +32,9 @@ export default function Header() {
           <p>Зроби місто кращим</p>
           <p>почавши із себе</p>
       </div>
-      <div className="header__btn">
-          <a className="btn problem__btn" href="#">Donate</a>
-      </div>
+      {/* <div className="header__btn">
+          <a className="btn problem__btn" href="#">Dona9876te</a>
+      </div> */}
         <div className="block__arrow">
             <a className="arrow" href="#block__map">  
                 <h4 className="arrow__title">Карта проблем</h4>      
