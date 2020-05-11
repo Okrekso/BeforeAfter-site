@@ -25,7 +25,7 @@
     justify-content: space-between;
     position: relative;
     z-index: 4;
-    box-shadow: inset 10px 10px 80px rgba(0,0,0,0.45);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
   .second-row .image-item:first-child {
     background: url(../img/Problems/Problems_5.jpg) no-repeat center left / cover;
@@ -50,30 +50,27 @@
     overflow: hidden;
   }
   
-  .image-item:hover .problem__hidden {
-    opacity: 1;
-  }
+
   
   
-  .problem__hidden {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    opacity: 0;
+  // .problem__hidden {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   text-align: center;
+  //   opacity: 0;
   
-    width: 100%;
-    height: 100%;
+  //   width: 100%;
+  //   height: 100%;
   
-    background-color: #d0ed9dd2;
+  //   background-color: #d0ed9dd2;
   
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    transition: opacity 0.2s linear;
-    
-  }
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   z-index: 2;
+  //   transition: opacity 0.2s linear;
+  // }
   
   .problem__content{
     padding: 20px 10px;
@@ -115,7 +112,7 @@
   .problem__content .info .price{
     text-align: left;
     display: flex;
-    width: 100%;
+    //width: 100%;
     align-items: flex-start;
   }
   .problem__content .info .price .capital{
@@ -125,10 +122,14 @@
     
     color: red;
   }
+
   .problem__content .info .user{
     text-align: right;
+    width: 100%;
     white-space: nowrap;
     align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
     display: flex;
     margin-right: 5px;
   }
@@ -139,57 +140,23 @@
 
 
 
-  /*Hidden
-  ==================*/
-  .problem__description {
-    font-size: 14px;
-    color: #424242;
-  }
-  
-
 
   /*Bottons
   ==================*/
-  
-  .problems__btn {
-    margin-top: 100px;
-  }
-  
-  .btn--one {
-    display: inline-block;
-    vertical-align: top;
-  
+
+  .btn_donate {
     text-decoration: none;
     text-align: center;
+    padding: 2px;
     transition-duration: 100ms;
     transition-property: box-shadow;
+    border: 2px solid #a1b1aa81;
+    /*border-radius: 10px;*/
+    cursor: pointer;
+    color: #000000;
+    margin-left: 5px;
   }
-  
-  .btn--one:hover {
+  .btn_donate:hover {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   }
   
-  .donate__btn--one {
-    padding: 12px 30px;
-    border: 1px solid #00ff00;
-    border-radius: 10px;
-    cursor: pointer;
-    font-family: 'Roboto Slab',Tahoma, Arial,serif;
-    font-size: 13px;
-    color: #000000;
-    font-weight: 600;
-  }
-  
-  .problem__btn--one {
-    padding: 12px 25px;
-  
-    border: 1px solid #00ff00;
-    border-radius: 10px;
-    background-color: #00ff00;
-  
-    cursor: pointer;
-  
-    font-size: 13px;
-    color: #000000;
-    font-weight: 600;
-  }

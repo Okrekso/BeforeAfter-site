@@ -24,17 +24,13 @@ function ProblemsItem({item}){
                         <div className="capital">{item.capital}/</div>
                         <div className="minBudget">{item.minBudget}</div>
                     </div>
+                    <div className="donate">
+                        <a className="btn_donate" href="#">Donate</a>
+                    </div>
                     <div className="user">
                         <img src={userImg} alt="User" />
                         <p>{item.userName}</p>
                     </div>
-                </div>
-            </div>
-            <div className="problem__hidden">
-                <div className="problem__description">{item.description}</div>
-                <div className="problems__btn">
-                    <a className="btn--one donate__btn--one" href="#">Donate</a>
-                    <a className="btn--one problem__btn--one" href="#">Допомогти</a>
                 </div>
             </div>
     </li>
