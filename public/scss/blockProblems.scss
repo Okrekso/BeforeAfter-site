@@ -25,7 +25,7 @@
     justify-content: space-between;
     position: relative;
     z-index: 4;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    // box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
   .second-row .image-item:first-child {
     background: url(../img/Problems/Problems_5.jpg) no-repeat center left / cover;
@@ -42,7 +42,6 @@
   .problem__item {
     width: 25%;
     height: 350px;
-  
     border-bottom: 1px solid #fff;
     border-right: 1px solid #fff;
   
@@ -73,7 +72,13 @@
   // }
   
   .problem__content{
-    padding: 20px 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.3s ease-out;
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      cursor: pointer;
+    }
   }
   .problem__content .title{
     padding: 10px 5px;
