@@ -16,6 +16,7 @@
     "firebase": "^7.14.2",
     "google-map-react": "^1.1.7",
     "jquery": "^3.4.1",
+<<<<<<< HEAD
     "node-sass": "^4.14.0",
 =======
     "firebase": "^7.14.3",
@@ -23,6 +24,13 @@
     "jquery": "^3.4.1",
     "node-sass": "^4.14.1",
 >>>>>>> b49747b4eb2112e5f92f878ae91f910e108aa83b
+=======
+<<<<<<< HEAD
+    "node-sass": "^4.14.0",
+=======
+    "node-sass": "^4.13.1",
+>>>>>>> 1d58ef2456c1fc95696ce70b06de1747a0e462f7
+>>>>>>> b769f47c3877a23661893433a8c1f8867163ddf1
     "postcss-loader": "^3.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
