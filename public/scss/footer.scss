@@ -7,7 +7,7 @@
     align-items: center;
     background-color: #162b4d;
     color: #b8b8b8;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto Slab',Tahoma, Arial,serif;
   }
   
   .footer__text{
@@ -15,7 +15,7 @@
     padding: 25px 0 10px 35px;
     font-size: 25px;
     text-transform: uppercase;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Roboto Slab',Tahoma, Arial,serif;
     font-weight: 700 italic;
   }
   
@@ -28,10 +28,7 @@
   filter: invert(1) brightness(1000);
   }
   
-  .footer__copyright{
-  
-  }
-  
+ 
   .footer__icons{
     display: flex;
     right: 0;

@@ -11,15 +11,36 @@ import HeaderNav from "./headerNav";
 export default function Header() {
   return (
     <header>
+<<<<<<< HEAD
         <div className="container">
         <HeaderNav />
+=======
+            <div className="container">
+        <nav className="main-menu">
+            <div className="header__logo logo">
+                <a href="#" className="logo__link">
+                  <img src="./img/png/LOGO2.PNG" alt="" className="logo__img" />
+                </a>
+              </div>
+              <div className="main-menu__links">
+                  <a className="nav__link" href="#">Про нас</a>
+                  <a className="nav__link" href="#list__problem">Проблеми</a>
+                  <a className="nav__link" href="#">Donate</a>
+              </div>
+          <div className="header__person">
+              <a href="/my-account" className="person__link">
+                <img src="img/png/user.png" alt="" className="person__img" />
+              </a>
+            </div>
+        </nav>
+>>>>>>> b49747b4eb2112e5f92f878ae91f910e108aa83b
       <div className="header__title">
           <p>Зроби місто кращим</p>
           <p>почавши із себе</p>
       </div>
-      <div className="header__btn">
-          <a className="btn problem__btn" href="#">Donate</a>
-      </div>
+      {/* <div className="header__btn">
+          <a className="btn problem__btn" href="#">Dona9876te</a>
+      </div> */}
         <div className="block__arrow">
             <a className="arrow" href="#block__map">  
                 <h4 className="arrow__title">Карта проблем</h4>      

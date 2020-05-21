@@ -1,10 +1,4 @@
-import React, {
-    useState,
-    useContext,
-    useEffect,
-    useCallback,
-    useMemo
-  } from "react";
+import React, { useState, useEffect } from "react";
 import ProblemsItem from './problemsItem'
 
 
@@ -31,7 +25,6 @@ function ProblemsList(){
     db.collection('problems').get().then((querySnapshot) => {
     let problems = [];
         querySnapshot.forEach((doc) => {
-            console.log(`${doc.id} => ${doc.data()}`);
             let problem = {id:doc.id, 
                 ...doc.data()};
                 problems.push(problem);
@@ -42,7 +35,6 @@ function ProblemsList(){
     return(
         <ul className="image-items">
             {problems.map(item =>{
-                console.log(item);
                 return <ProblemsItem key={item.id}  item={item} />
             })}
         </ul>

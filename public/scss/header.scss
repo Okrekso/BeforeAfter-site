@@ -66,7 +66,7 @@ header {
     font-size: 70px;
     color: #000000;
     text-transform: uppercase;
-    font-family: "Playfair Display", serif;
+    font-family: 'Roboto Slab',Tahoma, Arial,serif;
   }
   
   /*Bottons
@@ -91,26 +91,13 @@ header {
     border: 1px solid #00ff00;
     border-radius: 10px;
     cursor: pointer;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Roboto Slab',Tahoma, Arial,serif;
     font-size: 13px;
     color: #000000;
     font-weight: 600;
   }
   
-  .problem__btn {
-    margin-left: 100px;
-    padding: 24px 50px;
-  
-    border: 2px solid #00ff00;
-    border-radius: 10px;
-    background-color: #00ff00;
-  
-    cursor: pointer;
-  
-    font-size: 19px;
-    color: #000000;
-    font-weight: 600;
-  }
+ 
   
   .block__arrow {
     text-align: center;
@@ -119,7 +106,7 @@ header {
   
   .arrow__title {
     font-size: 25px;
-    font-family: "Playfair Display", serif;
+    font-family: 'Roboto Slab',Tahoma, Arial,serif;
     color: black;
   }
   
