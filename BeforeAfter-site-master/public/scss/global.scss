@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+ }
+ body{
+    font-family: 'Open Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #c7ff70;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
+                 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body,
+html,
+#container {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 100%;
+}
+.footer .container{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content:space-between;
+}

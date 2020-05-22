@@ -1,0 +1,45 @@
+.footer{
+  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+    padding: 40px 20px;
+    align-items: center;
+    background-color: #162b4d;
+    color: #b8b8b8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .footer__text{
+    margin-top:40px;
+    padding: 25px 0 10px 35px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700 italic;
+  }
+  
+  .author{
+    padding-left: 600px
+  }
+  
+  .footer__logo img{
+  height: 20px;
+  filter: invert(1) brightness(1000);
+  }
+  
+  .footer__copyright{
+  
+  }
+  
+  .footer__icons{
+    display: flex;
+    right: 0;
+  }
+  
+  .icons img{
+    margin: 0 10px;
+    height: 20px;
+    filter: invert(1) brightness(1000);
+  }
