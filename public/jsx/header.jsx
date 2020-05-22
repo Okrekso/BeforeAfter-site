@@ -6,6 +6,7 @@ import React, {
   useMemo
 } from "react";
 import "../scss/header.scss";
+import HeaderNav from "./headerNav";
 
 export default function Header() {
   return (
@@ -20,7 +21,7 @@ export default function Header() {
               <div className="main-menu__links">
                   <a className="nav__link" href="#">Про нас</a>
                   <a className="nav__link" href="#list__problem">Проблеми</a>
-                  <a className="nav__link" href="#">Donate</a>
+                  <a className="nav__link" href="/donate">Donate</a>
               </div>
           <div className="header__person">
               <a href="/my-account" className="person__link">

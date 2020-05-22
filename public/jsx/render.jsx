@@ -7,6 +7,9 @@ import BlockProblems from "./blockProblems";
 import BlockSolved from "./blockSolved";
 import Footer from "./footer";
 import BlockMyAccount from "./blockMyAccount"
+import RegistrationPage from './registrationPage';
+import LoginPage from './loginPage';
+import donatePage from './donatePage';
 export default function render(container) {
   ReactDOM.render(<Site />, container);
 }
@@ -25,10 +28,13 @@ function Main() {
 export function Site(){
   return(
     <BrowserRouter>
-                <Switch>
-                  <Route exact={true} path="/" component={Main} />
-                  <Route exact={true} path="/my-account" component={BlockMyAccount} />
-                </Switch>
+      <Switch>
+        <Route exact={true} path="/" component={Main} />
+        <Route exact={true} path="/my-account" component={BlockMyAccount} />
+        <Route exact={true} path="/registration" component={RegistrationPage} />
+        <Route exact={true} path="/login" component={LoginPage} />
+        <Route exact={true} path="/donate" component={donatePage} />
+      </Switch>
     </BrowserRouter>
   );
 }
