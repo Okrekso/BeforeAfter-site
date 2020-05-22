@@ -12,56 +12,44 @@ import React, {
           
 <footer className="footer">
     <div className="container">
-<div className="footer__logo">
-    <img src="img/png/logo.png" alt=""/>
-  </div>
 
   <div className="footer__copyright">
-    &copy; IT STEP UNIVERSITY
+    <h1>Before & After 2020</h1>
+    <span>all rights reserved</span>
   </div>
 
   <div className="footer__icons">
     <div className="icon__instagram icons">
       <a href="#" className="icon__instagram">
-        <img src="img/png/instagram.png" alt=""/>
+        <img src="img/png/instagram1.png" alt=""/>
       </a>
     </div>
 
     <div className="icon__telegram icons">
       <a href="#" className="icon__telegram">
-        <img src="img/png/telegram.png" alt=""/>
+        <img src="img/png/telegram1.png" alt=""/>
       </a>
     </div>
 
-    <div className="icon__linkedin icons">
-      <a href="#" className="icon__linkedin">
-        <img src="img/png/linkedin.png" alt=""/>
-      </a>
-    </div>
-
-    <div className="icon__facebook icons">
-      <a href="#" className="icon__facebook">
-        <img src="img/png/facebook.png" alt=""/>
+    <div className="icon__twitter icons">
+      <a href="#" className="icon__twitter">
+        <img src="img/png/twitter.png" alt=""/>
       </a>
     </div>
 
     <div className="icon__youtube icons">
-      <a href="#" className="icon__youtube">
-        <img src="img/png/youtube.png" alt=""/>
+      <a href="#" className="icon__youtube1">
+        <img src="img/png/youtube1.png" alt=""/>
       </a>
     </div>
 
-    <div className="icon__gmail icons">
-      <a href="#" className="icon__gmail">
-        <img src="img/png/gmail.png" alt=""/>
-      </a>
+    <div className="icon__facebook icons">
+     <a href="#" className="icon__facebook">
+       <img src="img/png/facebook1.png" alt="" />
+     </a>
     </div>
 
-    <div className="icon__arrow1 icons">
-      <a href="#" className="icon__arrow1">
-        <img src="img/png/arrow1.png" alt=""/>
-      </a>
-    </div>
+   
   </div>
   </div>
 </footer>

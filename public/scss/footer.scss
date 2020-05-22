@@ -6,20 +6,20 @@
     width: 100%;
     padding: 40px 20px;
     align-items: center;
-    background-color: #162b4d;
-    color: #b8b8b8;
+    background-color: #defeb0;
+    color: 	#7e8278;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-  .footer__text{
+  .footer__text,h1,span{
     margin-top:40px;
     padding: 25px 0 10px 35px;
     font-size: 25px;
     text-transform: uppercase;
-    font-family: 'EB Garamond', serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700 italic;
   }
-  
+
   .author{
     padding-left: 600px
   }
@@ -28,18 +28,21 @@
   height: 20px;
   filter: invert(1) brightness(1000);
   }
-  
-  .footer__copyright{
-  
+
+  .footer__copyright ,h1,span{
+    text-align: center;
+    margin: 0 auto;
   }
   
   .footer__icons{
     display: flex;
+    position: absolute;
     right: 0;
+    margin-left: auto;
   }
   
   .icons img{
     margin: 0 10px;
-    height: 20px;
-    filter: invert(1) brightness(1000);
+    height: 40px;
+    
   }
