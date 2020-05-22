@@ -5,11 +5,22 @@ import photo from '../img/png/123.png'
 function donatePage(){
     return(
         <div>
+<<<<<<< HEAD
                 <ul> 
                     <li><a href="#problem">Проблеми</a></li>
                     <li><a href="#donate">Донати</a></li>
                     <li><a href="#home">Головна</a></li>    
                 </ul>
+=======
+            <div className="header">
+            <ul> 
+                    <li><a href="/#problem">Проблеми</a></li>
+                    <li><a href="#">Донати</a></li>
+                    <li><a href="/">Головна</a></li>    
+            </ul>
+            </div>
+
+>>>>>>> donate
                 <p className="HeaderText">Відмітка нової проблеми на карті</p>
                 <div className="Content">
                         <p className="HeaderTextContent">Загальний опис проблеми</p>
